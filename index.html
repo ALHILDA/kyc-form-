@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Government Issued ID</h1>
+        <P>Provide the required information below</P>
+        <form id="form">
+            <div>
+                <label for="country">Country (Where your ID was issued)</label>
+                <select id="country" name="country">
+                    
+                </select>
+                <span id="country-error"></span>
+            </div>
+            <div>
+                <label for="document-type">Document Type</label>
+                <select id="document-type" name="document-type">
+                    <option value=""></option>
+                    <option value="passport">Passport</option>
+                    <option value="driver-license">Driver's License</option>
+                    <option value="national-id">National ID</option>
+                    <option value="visa">Voter ID</option>
+                    <option value="birth-certificate">Birth Certificate</option>
+                </select>
+                <span id="document-type-error"></span>
+            </div>
+            <div>
+                <label for="document-number">Document Number (Of the document selected above)</label>
+                <input type="text" id="document-number" name="document-number" pattern="[A-Za-z0-9]+">
+                <span id="document-number-error"></span>
+            </div>
+            <button type="submit">Proceed to upload document ID</button>
+        </form>
+    </div>
+ <script src="script.js"></script>   
+</body>
+</html>
