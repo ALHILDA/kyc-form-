@@ -1,0 +1,1 @@
+The KYC form validation system performs checks on the customer's personal details (e.g., name, date of birth, nationality, etc.) and documents (e.g., government-issued ID, proof of address) to ensure they meet necessary standards and criteria for acceptance.
